@@ -7,12 +7,20 @@ btn.addEventListener("click", async () => {
       function: skp,
     });
   });
+  function skp(){
+    document.querySelectorAll("video")[0].currentTime=90;
+    let element=document.querySelector(".ytp-ad-skip-button");
+    console.log(element);
+    element.click();
+    
 
-
-function skp(){
-    console.log("fnc called");
-    if(document.querySelectorAll(".ytp-ad-module")[0].childNodes.length>0){
-      console.log("ifcalled")
-      document.querySelectorAll("video")[0].currentTime=90;
-    }
   }
+
+console.log("called");
+// function skp(){
+//     console.log("fnc called");
+//     if(document.querySelectorAll(".ytp-ad-module")[0].childNodes.length>0){
+//       console.log("ifcalled")
+//       document.querySelectorAll("video")[0].currentTime=90;
+//     }
+//   }
