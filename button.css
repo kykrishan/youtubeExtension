@@ -37,16 +37,24 @@ button{
     background-color: rgb(41, 43, 49);
     box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
 }
-h3{
+a{
+    text-decoration: none;
     align-items: center;
     text-align: center;
-    color: wheat;
+    color: rgb(196, 212, 226);
     font-size: large;
+    display: block;
+    font-size: 1.37em;
+    font-weight: bold;
+    margin-top: 3px;
+}
+a:hover{
+    color: rgb(16, 112, 196);
 }
 p{
     font-size: initial;
     text-align: center;
-    color: azure;
+    color: rgb(255, 255, 255);
 }
 button:hover{
     box-sizing: border-box;
