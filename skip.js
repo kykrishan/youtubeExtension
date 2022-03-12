@@ -1,4 +1,4 @@
-let btn=document.getElementById("changeColor");
+let btn=document.getElementById("skip");
 btn.addEventListener("click", async () => {
     let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
   
