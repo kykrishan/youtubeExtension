@@ -16,5 +16,3 @@ function skkip(){
     element.click();
   }
 }
-console.log("autocalled");
-window.addEventListener(onload,()=>console.log("onload"));
