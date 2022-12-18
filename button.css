@@ -1,4 +1,67 @@
-#skip{
-    height: 60px;
-    width: 80px;
-}
+body{
+    margin: 10px;
+    box-sizing: border-box  ;
+    background-color: rgb(32 33 36);
+    }
+    button{
+        box-sizing: border-box;
+        color: wheat;
+        width: 100%;
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        outline: 0px;
+        border: 1px solid rgba(144, 202, 249, 0.5);
+        margin: 0px;
+        cursor: pointer;
+        user-select: none;
+        vertical-align: middle;
+        appearance: none;
+        text-decoration: none;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        line-height: 1.75;
+        letter-spacing: 0.02857em;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 16px;
+        border-radius: 4px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        background-color: rgb(41, 43, 49);
+        box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+    }
+    a{
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+        color: rgb(196, 212, 226);
+        font-size: large;
+        display: block;
+        font-size: 1.37em;
+        font-weight: bold;
+        margin-top: 3px;
+    }
+    a:hover{
+        color: rgb(16, 112, 196);
+    }
+    h3{
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    p{
+        font-size: initial;
+        text-align: center;
+        color: rgb(168, 131, 131);
+    }
+    button:hover{
+        box-sizing: border-box;
+        border: 1px;
+        background-color: rgb(12, 35, 53);
+        color: rgb(233, 211, 211);
+    }

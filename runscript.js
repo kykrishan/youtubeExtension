@@ -1,6 +1,6 @@
-setInterval(skkip,1000);
+setInterval(skip,1000);
 
-function skkip(){
+function skip(){
   console.log("fnc called");
 
   if(document.querySelectorAll(".ytp-ad-text").length>0){
@@ -12,11 +12,9 @@ function skkip(){
       }
     });
 
-
     document.querySelectorAll("video")[0].currentTime=90;
     let element=document.querySelector(".ytp-ad-skip-button");
     element.click();
   }
 }
-console.log("autocalled");
-// window.addEventListener(onload,()=>console.log("onload"));
+
