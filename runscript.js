@@ -17,4 +17,3 @@ function skip(){
     element.click();
   }
 }
-
