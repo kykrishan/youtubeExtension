@@ -13,5 +13,4 @@ btn.addEventListener("click", async () => {
     console.log(element);
     element.click();
     
-
   }
