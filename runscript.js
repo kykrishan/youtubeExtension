@@ -18,5 +18,3 @@ function onVidBannerAd(){
     element.click();
   }
 }
-
-
